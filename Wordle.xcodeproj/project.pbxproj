@@ -13,6 +13,9 @@
 		966A776E2819BBAA001A969A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966A776C2819BBAA001A969A /* Main.storyboard */; };
 		966A77702819BBAB001A969A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966A776F2819BBAB001A969A /* Assets.xcassets */; };
 		966A77732819BBAB001A969A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966A77712819BBAB001A969A /* LaunchScreen.storyboard */; };
+		966A777D2819BBE9001A969A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A777C2819BBE9001A969A /* KeyboardViewController.swift */; };
+		966A777F2819BBEE001A969A /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A777E2819BBEE001A969A /* BoardViewController.swift */; };
+		966A77812819C2A4001A969A /* KeyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966A77802819C2A4001A969A /* KeyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		966A776F2819BBAB001A969A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966A77722819BBAB001A969A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		966A77742819BBAB001A969A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966A777C2819BBE9001A969A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		966A777E2819BBEE001A969A /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		966A77802819C2A4001A969A /* KeyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		966A77652819BBAA001A969A /* Wordle */ = {
 			isa = PBXGroup;
 			children = (
-				966A77662819BBAA001A969A /* AppDelegate.swift */,
-				966A77682819BBAA001A969A /* SceneDelegate.swift */,
-				966A776A2819BBAA001A969A /* ViewController.swift */,
-				966A776C2819BBAA001A969A /* Main.storyboard */,
-				966A776F2819BBAB001A969A /* Assets.xcassets */,
-				966A77712819BBAB001A969A /* LaunchScreen.storyboard */,
+				966A777B2819BBBC001A969A /* Other */,
+				966A777A2819BBB7001A969A /* Core */,
 				966A77742819BBAB001A969A /* Info.plist */,
 			);
 			path = Wordle;
+			sourceTree = "<group>";
+		};
+		966A777A2819BBB7001A969A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				966A776A2819BBAA001A969A /* ViewController.swift */,
+				966A777E2819BBEE001A969A /* BoardViewController.swift */,
+				966A777C2819BBE9001A969A /* KeyboardViewController.swift */,
+				966A77802819C2A4001A969A /* KeyCollectionViewCell.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		966A777B2819BBBC001A969A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				966A77662819BBAA001A969A /* AppDelegate.swift */,
+				966A77682819BBAA001A969A /* SceneDelegate.swift */,
+				966A776C2819BBAA001A969A /* Main.storyboard */,
+				966A776F2819BBAB001A969A /* Assets.xcassets */,
+				966A77712819BBAB001A969A /* LaunchScreen.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +165,10 @@
 			files = (
 				966A776B2819BBAA001A969A /* ViewController.swift in Sources */,
 				966A77672819BBAA001A969A /* AppDelegate.swift in Sources */,
+				966A77812819C2A4001A969A /* KeyCollectionViewCell.swift in Sources */,
 				966A77692819BBAA001A969A /* SceneDelegate.swift in Sources */,
+				966A777D2819BBE9001A969A /* KeyboardViewController.swift in Sources */,
+				966A777F2819BBEE001A969A /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
